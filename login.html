@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Randomanie</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="main.html">Randomanie</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="main.html">Domů</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="random.html">Náhodné</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Food.html">Jídlo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Další brzy</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Vyhledat</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://trevor.cz/userfiles/thumbs/7/fe201cc9-ddf9-4c95-9e42-0eb8def90098-1920x320-1.png?v=32qwmpudfj" class="d-block w-100" alt="..." style="height:320px; width:1920px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Lehká práce!</h5>
+              <p>Tato výpomoc není nijak náročná a zvládne ji téměř každý!</p>
+             
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://food.ubc.ca/wp-content/uploads/2020/02/header_1920x320.jpg" class="d-block w-100" alt="..." style="height:320px; width:1920px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Výhody v našem týmu!</h5>
+              <p>Každý člen týmu bude uveden na stránce jako administrátor. Každý navíc dostane příslušné dárky nebo slevové kódy od sponzorů!</p>
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.eurocampings.co.uk/blog/wp-content/uploads/2018/06/EC_header_1920x320.jpg" class="d-block w-100" alt="..." style="height:320px; width:1920px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Propagace na sociálních sítí!</h5>
+              <p>Každý člen týmu bude propagován na naších sociálních sítích. Přidej se k nám!</p>
+             
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev" >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Předchozí</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next" >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Další</span>
+        </button>
+      </div>
+      <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+        <div class="row align-items-center g-lg-5 py-5">
+          <div class="col-lg-7 text-center text-lg-start">
+            <h1 class="display-4 fw-bold lh-1 mb-3">Přidej se k nám do týmu!</h1>
+            <p class="col-lg-10 fs-4">Od 5. března do 28.března probíhá nábor pro členy do našeho týmu, přidat se může každý a také každý kdo se přidá, dostane naše výhody! </p>
+          </div>
+          <div class="col-md-10 mx-auto col-lg-5">
+            <form class="p-4 p-md-5 border rounded-3 bg-light">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Heslo</label>
+              </div>
+              <div class="checkbox mb-3">
+                <label>
+                  <input type="checkbox" value="remember-me"> Pamatovat heslo
+                </label>
+              </div>
+              <button class="w-100 btn btn-lg btn-primary" type="submit">Přihlásit se do náboru</button>
+              <hr class="my-4">
+              <small class="text-muted">Kliknutím na "Přihlásit se do náboru" souhlasité s pravidly náboru.</small>
+            </form>
+          </div>
+        </div>
+      </div>
+             <!-- FOOTER -->
+      <!-- Footer -->
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+     
+      <!-- Section: Social media -->
+  
+      <!-- Section: Form -->
+      <section class="">
+        
+      </section>
+      <!-- Section: Form -->
+  
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          Na této stránce se nachází pouze ověřené informace.
+        </p>
+      </section>
+      <!-- Section: Text -->
+  
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Kontakty</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Ředitel</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Sekretářka</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Studio</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Designér</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Užitečné odkazy</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Nastavení</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Pomoc</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Ověřenost</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Ocenění</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Produkty</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Mikiny</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Náhodné fakta</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Trička</a>
+              </li>
+              
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Sociální sítě</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Wikipedie</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Youtube</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Twitter</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Spotify</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      studio BLACKLIVESMATTER s.r.o.
+      <br>
+      © 2022 
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  
+      </body>
